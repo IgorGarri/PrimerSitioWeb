@@ -1,0 +1,61 @@
+<!--*****************************************************************************************************
+ * 
+ * Nombre: Igor Garrido Agudo 
+ * Fecha: 27/11/2023 
+ * Modulo: Lenguaje de marcas y sistemas de gestión de la información. 
+ * UD2
+ * Tarea: LMSGI02 - Tarea evaluativa 2: Sitio Web.
+ * Autoevaluación:
+ * Descripción del programa:En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+ * 
+ *****************************************************************************************************-->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="uf-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="CSS/estilos.css">
+        <link rel="shortcut icon" href="img/f1_formula1_6832.ico">
+    </head>
+    <body>
+        <!--Encabezado de la página con el menú de navegación.-->
+        <header>
+            <h1>CONTACTO</h1>
+            <img class="logof1" src="img/F1_logo.png" alt="logo formula 1">
+            <img class="banderas" src="img/banderas.png" alt="banderas de cuadros">
+            <nav>
+                <ul class="navigation">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="circuitos.html">Cicuitos</a></li>
+                  <li><a href="equipos.html">Equipos</a></li>
+                  <li><a href="noticias.html">Noticias</a></li>                
+                </ul>
+            </nav>    
+        </header>
+        
+        <main>
+            <!--Formulario para enviar comentarios y sugerencias de majora.-->
+           <form action="mailto:iggarrido@birt.eus" method="get">
+                <fieldset>
+                    <legend><h3>Formulario de contacto </h3></legend>
+                        <label for="fnamenom1">Nombre y apellido:</label><br>
+                        <input type="text" id="fnamenom1" name="nombre1" value="nombre apellido"><br>
+                        <label for="fnamemail">E-mail:</label><br>
+                        <input type="text" id="fnamemail" name="email" value="ejemplo@ejemplo.es"><br>
+                        <label for="fnameasunt">Asunto:</label><br>
+                        <input type="text" id="fnameasunt" name="Asunto" value="Mejoras"><br>
+                        <label for="texto">Mensaje:</label><br>
+                        <textarea id="texto" name="Mensaje"></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </main>
+
+         <!--Pie de página en el que se muestra los derecehos de autor y la procedencia de los contenidos multimedia.-->
+        <footer>
+            <p>Autor de la página: Igor Garrido. Todos los derechos reservados 2023.©</p>
+        </footer>
+    </body>
+</html>

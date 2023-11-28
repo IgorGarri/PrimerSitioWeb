@@ -1,0 +1,285 @@
+<!--*****************************************************************************************************
+ * 
+ * Nombre: Igor Garrido Agudo 
+ * Fecha: 27/11/2023 
+ * Modulo: Lenguaje de marcas y sistemas de gestión de la información. 
+ * UD2
+ * Tarea: LMSGI02 - Tarea evaluativa 2: Sitio Web.
+ * Autoevaluación:
+ * Descripción del programa:En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+ * 
+ *****************************************************************************************************-->
+ <!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="uf-8">
+        <title>Todo sobre F1</title>
+        <link rel="stylesheet" href="CSS/estilos.css">
+        <link rel="shortcut icon" href="img/f1_formula1_6832.ico">
+    </head>
+    <body>
+        <!--Encabezado de la página con el menú de navegación-->
+        <header>
+            <h1>TODO SOBRE FORMULA 1</h1>
+            <img class="logof1" src="img/F1_logo.png" alt="logo formula 1">
+            <img class="banderas" src="img/banderas.png" alt="banderas de cuadros">
+            <nav>
+                <ul>
+                  <li><a href="circuitos.html">Cicuitos</a></li>
+                  <li><a href="equipos.html">Equipos</a></li>
+                  <li><a href="noticias.html">Noticias</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Apartado de noticas en el lateral de la página.-->
+        <aside>
+            <h2>NOTICIAS</h2>
+            <section>
+                <img class="imgnoticias" src="img/fernando-alonso-aston-martin-f.webp" alt="fernando-alonso">
+                <a href="https://es.motorsport.com/f1/news/declaraciones-jueves-alonso-aston-martin-abu-dhabi-2023/10550398/">Alonso, sobre Aston Martin F1: "Era impensable hace doce meses"</a>
+            </section>
+            <section>
+                <img class="imgnoticias" src="img/noticia.jpg" alt="foto equipo">
+                <a href="https://www.caranddriver.com/es/formula-1/a45925552/grave-problema-f1-red-bull-sufrio-sorprendio-nadie-vio/">El grave problema en la Fórmula 1 que Red Bull no sufrió: "Me sorprendió que nadie lo viera venir…"</a>
+
+            </section>
+            <section>
+                <img class="imgnoticias" src="img/notica3.jpg" alt="foto ham y toto">
+                <a href="https://www.elconfidencial.com/deportes/formula-1/2023-11-23/abu-dabi-wolff-verstappen-hamilton-massa-formula-1_3778759/">La mejor última vuelta de la historia de la Fórmula 1 levanta ampollas en los despachos</a>
+
+            </section>
+            <section>
+                <img class="imgnoticias" src="img/abuDabi.jpg" alt="final carrrera abu dabi">
+                <a href="https://depor.com/full-deportes/fierros/gp-de-abu-dabi-2023-de-la-formula-1-fecha-horarios-donde-ver-canales-tv-de-transmision-via-espn-star-plus-fox-sports-eurosport-y-dazn-f1-deportes-noticia/">GP de Abu Dabi 2023 de la Fórmula 1: fechas, hora de inicio y dónde ver transmisión</a>
+
+            </section>
+            <section>
+                <img class="imgnoticias" src="img/maxVerstappen.jpg" alt="Max verstappen">
+                <a href="https://www.lasexta.com/noticias/deportes/motor/formula1/hamilton-entiende-falta-emocion-max-verstappen-red-bull-sus-victorias_20231123655f1ced1b48c300013d4c20.html">Hamilton entiende la 'falta de emoción' de Max Verstappen y Red Bull en sus victorias en la F1</a>
+
+            </section>
+            <a href="noticias.html">Ver más noticias...</a>
+        </aside>
+
+        <!--Sección principal de la página donde se presenta lo que ofrece.-->
+        <main id="principal">
+            <section>
+                <img class="pilotos" src="img/pilotos.jpg" alt="pilotos formula 1">
+                <h2>PRESENTACIÓN</h2>
+            
+                <p class="texto">Bienvenido a la página en la que te enteraras de las últimas noticas sobre formula 1. 
+                   Todo lo que tienes que saber sobre los equipos y sobre los circuitos de la temporada 2023.
+                   Tendrás toda la información relacionada con los equipos y los circuitos.
+                   También dispondras de un apartado de noticias en el cual podras ver las noticias del momento.
+                   En la página principal podrás consultar la clasificación general de pilotos.</p>
+            </section>          
+        </main>
+
+        <!--Apartado de la clasificación de pilotos en formato tabla.-->
+        <section id="clasificacion">
+            <h2>CLASIFICACIÓN</h2>
+            <table id="tabla">
+                <tr>
+                    <th><abbr title="Posición">POS</abbr></th>
+                    <th>PILOTO</th>
+                    <th>NACIONALIDAD</th>
+                    <th>ESCUDERÍA</th>
+                    <th><abbr title="Puntos">PTS</abbr></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/MAXVER01/max-verstappen.html">Max verstappen</a></td>
+                    <td>NED</td>
+                    <td>RED BULL RACING HONDA RBPT</td>
+                    <td>549</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/SERPER01/sergio-perez.html">Sergio Perez</a></td>
+                    <td>MEX</td>
+                    <td>RED BULL RACING HONDA RBPT</td>
+                    <td>273</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/LEWHAM01/lewis-hamilton.html">Lewis Hamilton</a></td>
+                    <td>GBR</td>
+                    <td>MERCEDES</td>
+                    <td>323</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/CARSAI01/carlos-sainz.html">Carlos Sainz</a></td>
+                    <td>ESP</td>
+                    <td>FERRARI</td>
+                    <td>200</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/FERALO01/fernando-alonso.html">Fernando Alonso</a></td>
+                    <td>ESP</td>
+                    <td>ASTON MARTIN ARAMCO MERCEDES</td>
+                    <td>200</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/LANNOR01/lando-norris.html">Lando Norris</a></td>
+                    <td>GBR</td>
+                    <td>MCLAREN MERCEDES</td>
+                    <td>195</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/CHALEC01/charles-leclerc.html">Charles Leclerc</a></td>
+                    <td>MON</td>
+                    <td>FERRARI</td>
+                    <td>188</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/GEORUS01/george-russell.html">George Russell</a></td>
+                    <td>GBR</td>
+                    <td>MERCEDES</td>
+                    <td>160</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/OSCPIA01/oscar-piastri.html">Oscar Piastri</a></td>
+                    <td>AUS</td>
+                    <td>MCLAREN MERCEDES</td>
+                    <td>89</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/LANSTR01/lance-stroll.html">Lance Stroll</a></td>
+                    <td>CAN</td>
+                    <td>ASTON MARTIN ARAMCO MERCEDES</td>
+                    <td>73</td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/PIEGAS01/pierre-gasly.html">Pierre Gasly </a></td>
+                    <td>FRA</td>
+                    <td>ALPINE RENAULT</td>
+                    <td>62</td>
+                </tr>
+
+                <tr>
+                    <td>12</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/ESTOCO01/esteban-ocon.html">Esteban Ocon</a></td>
+                    <td>FRA</td>
+                    <td>ALPINE RENAULT</td>
+                    <td>58</td>
+                </tr>
+
+                <tr>
+                    <td>13</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/ALEALB01/alexander-albon.html">Alexander Albon</a></td>
+                    <td>THA</td>
+                    <td>WILLIAMS MERCEDES</td>
+                    <td>27</td>
+                </tr>
+
+                <tr>
+                    <td>14</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/YUKTSU01/yuki-tsunoda.html">Yuki Tsunoda</a></td>
+                    <td>JPN</td>
+                    <td>ALPHATAURI HONDE RBPT</td>
+                    <td>13</td>
+                </tr>
+
+                <tr>
+                    <td>15</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/VALBOT01/valtteri-bottas.html">Valtteri Bottas</a></td>
+                    <td>FIN</td>
+                    <td>ALFA ROMEO FERRARI</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>16</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/NICHUL01/nico-hulkenberg.html">Nico Hulkenberg</a></td>
+                    <td>GER</td>
+                    <td>HAAS FERRARI</td>
+                    <td>9</td>
+                </tr>
+
+                <tr>
+                    <td>17</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/DANRIC01/daniel-ricciardo.html">Daniel Ricciardo</a></td>
+                    <td>AUS</td>
+                    <td>ALPHATAURI HONDA RBPT</td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td>18</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/GUAZHO01/guanyu-zhou.html">Zhou Guanyu</a></td>
+                    <td>CHN</td>
+                    <td>ALFA ROMEO FERRARI</td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td>19</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/KEVMAG01/kevin-magnussen.html">Kevin Magnussen</a></td>
+                    <td>DEN</td>
+                    <td>HAAS FERRARI</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>20</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/LIALAW01/liam-lawson.html">Liam Lawson</a></td>
+                    <td>NZL</td>
+                    <td>ALPHATAURI HONDA RBPT</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>21</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/LOGSAR01/logan-sargeant.html">Logan Sargeant</a></td>
+                    <td>USA</td>
+                    <td>WILLIAMS MERCEDES</td>
+                    <td>1</td>
+                </tr>
+
+                <tr>
+                    <td>22</td>
+                    <td><a href="https://www.formula1.com/en/results.html/2023/drivers/NYCDEV01/nyck-de-vries.html">Nyck De Vries</a></td>
+                    <td>NED</td>
+                    <td>ALPHATAURI HONDA RBPT</td>
+                    <td>0</td>
+                </tr>
+
+            </table>
+        </section>  
+        
+        <!--Pie de página en el que se muestra los derecehos de autor y la procedencia de los contenidos multimedia.-->
+        <footer>
+            <p>Autor de la página: Igor Garrido. Todos los derechos reservados 2023.©</p>
+            <p>
+                Procedencia de las fotos: <a href="https://en.m.wikipedia.org/wiki/File:F1_logo.svg ">https://en.m.wikipedia.org/wiki/File:F1_logo.svg </a> 
+                , <a href="https://ar.pinterest.com/pin/584482857867566805/">https://ar.pinterest.com/pin/584482857867566805/</a>, 
+                <a href="https://www.total-motorsport.com/f1-2023-how-driver-line-up-looks/">https://www.total-motorsport.com/f1-2023-how-driver-line-up-looks/</a>, 
+                <a href="https://es.motorsport.com/f1/news/declaraciones-jueves-alonso-aston-martin-abu-dhabi-2023/10550398/">https://es.motorsport.com/f1/news/declaraciones-jueves-alonso-aston-martin-abu-dhabi-2023/10550398/</a>, 
+                <a href="https://www.caranddriver.com/es/formula-1/a45925552/grave-problema-f1-red-bull-sufrio-sorprendio-nadie-vio/">https://www.caranddriver.com/es/formula-1/a45925552/grave-problema-f1-red-bull-sufrio-sorprendio-nadie-vio/</a>, 
+                <a href="https://www.elconfidencial.com/deportes/formula-1/2023-11-23/abu-dabi-wolff-verstappen-hamilton-massa-formula-1_3778759/">https://www.elconfidencial.com/deportes/formula-1/2023-11-23/abu-dabi-wolff-verstappen-hamilton-massa-formula-1_3778759/</a>, 
+                <a href="https://depor.com/full-deportes/fierros/gp-de-abu-dabi-2023-de-la-formula-1-fecha-horarios-donde-ver-canales-tv-de-transmision-via-espn-star-plus-fox-sports-eurosport-y-dazn-f1-deportes-noticia/">https://depor.com/full-deportes/fierros/gp-de-abu-dabi-2023-de-la-formula-1-fecha-horarios-donde-ver-canales-tv-de-transmision-via-espn-star-plus-fox-sports-eurosport-y-dazn-f1-deportes-noticia/</a>, 
+                <a href="https://www.lasexta.com/noticias/deportes/motor/formula1/hamilton-entiende-falta-emocion-max-verstappen-red-bull-sus-victorias_20231123655f1ced1b48c300013d4c20.html">https://www.lasexta.com/noticias/deportes/motor/formula1/hamilton-entiende-falta-emocion-max-verstappen-red-bull-sus-victorias_20231123655f1ced1b48c300013d4c20.html</a>
+            </p>
+        </footer>
+    </body>
+</html>
